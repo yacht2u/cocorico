@@ -25,7 +25,7 @@ parameters:
     ### Cocorico environments dependant parameters (See CocoricoCoreBundle/Resources/config/parameters.yml) ###
 
     #Assets for emails
-    cocorico.assets_base_urls: https://cocorico.dev
+    cocorico.assets_base_urls: https://ec2-3-21-167-150.us-east-2.compute.amazonaws.com
 
     #Request Context url for email send from command
     router.request_context.host: cocorico.dev
@@ -50,7 +50,7 @@ parameters:
     cocorico.image_driver: imagick
 
     #Google analytics code
-    cocorico.google_analytics: UA-64445856-1
+    cocorico.google_analytics: UA-64445851
 
     #Google Tag Manager
     cocorico.google_tag_manager: false
